@@ -4,6 +4,14 @@
 
 [![NPM](https://img.shields.io/npm/v/react-export-csv.svg)](https://www.npmjs.com/package/react-export-csv) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## TODO:
+- [X] create component
+- [X] add support for CSV files
+- [X] add documentation for usage
+- [ ] add support for XLSX files
+- [ ] test browser compatability
+- [ ] release npm package
+
 ## Install
 
 ```bash
