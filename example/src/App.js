@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-export-csv'
+import CsvExportBtn from 'react-export-csv'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <CsvExportBtn text='download csv' />
       </div>
     )
   }

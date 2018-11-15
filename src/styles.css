@@ -1,8 +1,19 @@
 /* add css styles here (optional) */
 
-.test {
-  display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+.button {
+  background-color: #fff;
+  border: 3px solid #2962ff;
+  color: #2962ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  transition: all .3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #2962ff;
+  color: #fff;
+  cursor: pointer;
 }
