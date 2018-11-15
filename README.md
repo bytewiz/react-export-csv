@@ -34,6 +34,10 @@ class Example extends Component {
 }
 ```
 
+## Default looks
+![button](https://i.imgur.com/8v3WoW4.png)
+![button](https://i.imgur.com/jNawKlv.png)
+
 ## License
 
 MIT © [bytewiz](https://github.com/bytewiz)
