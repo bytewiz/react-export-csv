@@ -23,16 +23,31 @@ npm install --save react-export-csv
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-export-csv'
+import CsvExportBtn from 'react-export-csv'
+
+const data = [
+  { firstName: 'Joe', lastName: 'Johnson' },
+  { firstName: 'Bob', lastName: 'Johnson' },
+]
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <CsvExportBtn 
+        text="download csv"
+        filename="sample"
+        model={data}
+      />
     )
   }
 }
 ```
+
+## Output file
+firstName | lastName
+------------ | -------------
+Joe | Johnson
+Bob | Johnson
 
 ## Default looks
 ![button](https://i.imgur.com/8v3WoW4.png)
