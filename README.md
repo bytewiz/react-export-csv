@@ -53,6 +53,10 @@ Bob | Johnson
 ![button](https://i.imgur.com/8v3WoW4.png)
 ![button](https://i.imgur.com/jNawKlv.png)
 
+## Special thanks to BrowserStack
+[![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=<badge_key>)](https://www.browserstack.com/automate/public-build/<badge_key>)
+
+
 ## License
 
 MIT © [bytewiz](https://github.com/bytewiz)
