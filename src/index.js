@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-// import { parse as json2csv } from 'json2csv'
+import { parse as json2csv } from 'json2csv'
 import styles from './styles.css'
 
 function download (url, name) {
@@ -20,10 +20,9 @@ export default class CsvExportBtn extends Component {
   }
 
   downloadCsv = () => {
-    console.log('CLICK')
-    // const csv = json2csv(this.props.model)
-    // const url = window.URL.createObjectURL(new Blob([csv], { type: 'application/octet-stream' }))
-    // download(url, `${this.props.filename}.csv`)
+    const csv = json2csv(this.props.model)
+    const url = window.URL.createObjectURL(new Blob([csv], { type: 'application/octet-stream' }))
+    download(url, `${this.props.filename}.csv`)
   }
 
   render() {
